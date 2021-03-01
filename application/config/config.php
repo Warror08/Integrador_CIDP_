@@ -24,7 +24,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |
 */
 #$config['base_url'] = 'http://localhost/usandoframework/';
-$config['base_url'] = 'http://https://usandoframework.herokuapp.com/';
+$config['base_url'] = 'http://usandoframework.herokuapp.com/'; 
 
 /*
 |--------------------------------------------------------------------------
