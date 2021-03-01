@@ -20,12 +20,19 @@ class Gastos extends CI_Controller {
 	 */
 	public function index()
 	{
+		$dados['titulo'] = "Listar Gastos";
+		$this->load->view('cabecalho', $dados);
 		$this->load->view('listar_gastos');
+		$this->load->view('rodape');
+	
 	}
 
     public function novo()
 	{
+		$dados['titulo'] = "Cadastrar Novo Gasto";
+		$this->load->view('cabecalho', $dados);
 		$this->load->view('novo_gasto');
+		$this->load->view('rodape');
 	}
 
 	public function salvar()

@@ -20,11 +20,17 @@ class Categorias extends CI_Controller {
 	 */
 	public function index()
 	{
+		$dados['titulo'] = "Listar categorias";
+		$this->load->view('cabecalho', $dados);
 		$this->load->view('listar_categorias');
+		$this->load->view('rodape');
 	}
 
     public function novo()
 	{
+		$dados['titulo'] = "Cadastrar Nova Categoria";
+		$this->load->view('cabecalho', $dados);
 		$this->load->view('novo_categoria');
+		$this->load->view('rodape');
 	}
 }

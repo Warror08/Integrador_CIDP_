@@ -1,18 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- 1a forma de inserir folha de estilo -->
-    <link href="<?= base_url('assets/css/estilo.css')?>" rel="stylesheet">
-    
-    <!-- 2a forma de inserir folha de estilo -->
-    <?= link_tag('assets/css/estilo2.css','stylesheet') ?>
 
-    <title>Document</title>
-</head>
-<body>
     <h1>Lista de gastos de Fevereiro</h1>
     <table>
         <tr>
@@ -40,6 +26,3 @@
         $img_usuario = "02";
     ?>
     <?= img("assets/imagens/".$img_usuario.".jpg") ?>
-
-</body>
-</html>
