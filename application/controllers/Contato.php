@@ -18,6 +18,7 @@ class Contato extends CI_Controller {
 	 * map to /index.php/welcome/<method_name>
 	 * @see https://codeigniter.com/user_guide/general/urls.html
 	 */
+	/**Fazer commit */
 	public function index()
 	{
 		$this->load->view('formas_de_contato');

@@ -14,7 +14,7 @@
             <td>02/02/2021</td><td>Refrigente</td><td>R$ 1,00</td>
         </tr>
     </table>
-
+<!-- fazer commit -->
     <!-- 1a forma de inserir imagens no codeigniter -->
     <img src="<?= base_url('assets/imagens/calculadora.jpg') ?>" />
 
