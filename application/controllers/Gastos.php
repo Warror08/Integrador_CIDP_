@@ -20,10 +20,14 @@ class Gastos extends CI_Controller {
 	 */
 	public function index()
 	{
-		$dados['titulo'] = "Listar Gastos";
-		$this->load->view('cabecalho', $dados);
-		$this->load->view('listar_gastos');
-		$this->load->view('rodape');
+		if ($this->session->has_userdata('usuario')){
+			$dados['titulo'] = "Listar Gastos";
+			$this->load->view('cabecalho', $dados);
+			$this->load->view('listar_gastos');
+			$this->load->view('rodape');
+		}else{
+			redirect('usuario/login');
+		}
 	
 	}
 

@@ -50,7 +50,7 @@
   </head>
   <body class="d-flex flex-column h-100">
     
-<header>
+<header class="sticky-top">
   <!-- Fixed navbar -->
   <nav class="navbar navbar-expand-md navbar-dark bg-dark">
     <div class="container-fluid">
@@ -69,11 +69,13 @@
           <li class="nav-item">
             <a class="nav-link" href="<?= base_url('categorias/index')?>" tabindex="-1" aria-disabled="true">Categoria</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link" href="<?= base_url('usuario/logoff')?>" tabindex="-1" aria-disabled="true">Sair</a>
+          </li>
         </ul>
-        <form class="d-flex">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
+        <div class="d-flex">
+          <p> <?= $this->session->userdata('usuario') ?> </p>
+        </div>
       </div>
     </div>
   </nav>
