@@ -61,13 +61,13 @@
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav me-auto mb-2 mb-md-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="<?= base_url('gastos/index')?>">Listar Gastos</a>
+            <a class="nav-link active" aria-current="page" href="<?= base_url('gastos/index')?>">Iluminação</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="<?= base_url('gastos/novo')?>">Novo Gasto</a>
+            <a class="nav-link" href="<?= base_url('gastos/novo')?>">Saúde</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="<?= base_url('categorias/index')?>" tabindex="-1" aria-disabled="true">Categoria</a>
+            <a class="nav-link" href="<?= base_url('categorias/index')?>" tabindex="-1" aria-disabled="true">Educação</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="<?= base_url('usuario/logoff')?>" tabindex="-1" aria-disabled="true">Sair</a>
